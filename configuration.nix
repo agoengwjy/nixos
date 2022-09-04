@@ -9,7 +9,7 @@
       # Include the results of the hardware scan.
       # $ sudo nix-channel --add https://github.com/NixOS/nixos-hardware/archive/master.tar.gz nixos-hardware
       # $ sudo nix-channel --update
-      <nixos-hardware/lenovo/thinkpad/t430>
+      # e.g <nixos-hardware/lenovo/thinkpad/t430>
       ./hardware-configuration.nix
     ];
 
